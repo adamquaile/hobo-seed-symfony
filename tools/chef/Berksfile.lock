@@ -1,7 +1,7 @@
 {
   "sources": {
     "yum": {
-      "locked_version": "2.4.4"
+      "locked_version": "3.2.2"
     },
     "mysql": {
       "locked_version": "4.0.20"
@@ -16,10 +16,13 @@
       "locked_version": "1.7.2"
     },
     "nginx": {
-      "locked_version": "2.0.8"
+      "locked_version": "2.7.4"
     },
-    "apache2": {
-      "locked_version": "1.8.14"
+    "nodejs": {
+      "locked_version": "2.0.0"
+    },
+    "git": {
+      "locked_version": "4.0.2"
     },
     "elasticsearch": {
       "locked_version": "0.3.7"
@@ -44,6 +47,9 @@
       "git": "git://github.com/inviqa/chef-config-driven-helper.git",
       "ref": "5ffba6a0cc34ed0e9399f447ae81bd02ba641951"
     },
+    "symfony-customizations": {
+      "path": "./site-cookbooks/symfony"
+    },
     "openssl": {
       "locked_version": "1.1.0"
     },
@@ -51,19 +57,22 @@
       "locked_version": "1.4.4"
     },
     "xml": {
-      "locked_version": "1.2.2"
+      "locked_version": "1.2.6"
+    },
+    "chef-sugar": {
+      "locked_version": "2.0.0"
     },
     "yum-epel": {
-      "locked_version": "0.3.4"
+      "locked_version": "0.4.0"
     },
     "windows": {
-      "locked_version": "1.30.0"
+      "locked_version": "1.34.2"
     },
     "chef_handler": {
-      "locked_version": "1.1.5"
+      "locked_version": "1.1.6"
     },
     "iis": {
-      "locked_version": "2.0.2"
+      "locked_version": "2.1.2"
     },
     "ulimit": {
       "locked_version": "0.3.2"
@@ -72,7 +81,7 @@
       "locked_version": "1.5.10"
     },
     "apt": {
-      "locked_version": "2.3.8"
+      "locked_version": "2.5.0"
     },
     "bluepill": {
       "locked_version": "2.3.1"
@@ -81,31 +90,49 @@
       "locked_version": "1.12.2"
     },
     "ohai": {
-      "locked_version": "1.1.12"
+      "locked_version": "2.0.1"
+    },
+    "ark": {
+      "locked_version": "0.9.0"
+    },
+    "7-zip": {
+      "locked_version": "1.0.2"
+    },
+    "dmg": {
+      "locked_version": "2.2.0"
     },
     "java": {
-      "locked_version": "1.21.2"
+      "locked_version": "1.25.0"
     },
     "monit": {
       "locked_version": "0.7.1"
     },
-    "ark": {
-      "locked_version": "0.6.0"
-    },
     "iptables": {
-      "locked_version": "0.12.0"
+      "locked_version": "0.13.2"
     },
-    "database": {
+    "apache2": {
       "locked_version": "2.0.0"
     },
+    "logrotate": {
+      "locked_version": "1.6.0"
+    },
+    "pacman": {
+      "locked_version": "1.1.1"
+    },
+    "database": {
+      "locked_version": "2.3.0"
+    },
     "postgresql": {
-      "locked_version": "3.3.4"
+      "locked_version": "3.4.1"
     },
     "aws": {
-      "locked_version": "2.1.0"
+      "locked_version": "2.4.0"
     },
     "xfs": {
       "locked_version": "1.1.0"
+    },
+    "mysql-chef_gem": {
+      "locked_version": "0.0.2"
     }
   }
 }
